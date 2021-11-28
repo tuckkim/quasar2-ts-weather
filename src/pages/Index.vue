@@ -71,7 +71,7 @@ import { WeatherDataType } from '../components/models';
 export default defineComponent({
   name: 'PageIndex',
   setup() {
-    const apiKey = 'ea55b8d2f091e522d06327a3e470ecce';
+    const apiKey = '<api-key-here>';
     const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
     const $q = useQuasar();
     const searchText = ref<string | null>(null);
